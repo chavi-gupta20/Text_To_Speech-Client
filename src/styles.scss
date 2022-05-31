@@ -1,0 +1,81 @@
+.App{
+  text-align: center;
+}
+.text-form{
+  margin-top: 100px;
+}
+
+.input {
+    font-size: 16px;
+    font-size: calc(max(16px, 1em));
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid gray;
+    border-radius: 4px;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+h3{
+     text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .speak-btn{
+
+    button {
+        background-color: #323232;
+        border: none;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 10em;
+        border-radius: 1rem;
+        color: white;
+        box-shadow: 0 0.2rem #dfd9d9;
+        cursor: pointer;
+        margin-top: 40px;
+    
+       }
+       
+       button:active {
+        color: #323232;
+        box-shadow: 0 0.2rem #323232;
+        transform: translateY(0.2rem);
+       }
+       
+       button:hover:not(:disabled) {
+        background: #D9D7F1;
+        color: white;
+        text-shadow: 0 0.1rem #bcb4b4;
+       }
+       
+       button:disabled {
+        cursor: auto;
+        color: grey;
+       }
+       
+    }
